@@ -5,7 +5,7 @@ def sub(a, b):
   print 'Sub is : {}'.format(a-b)
   
 def mul(a, b):
-  print 'Multiplication is :'.format(a*b)
+  print 'Multiplication is : {}'.format(a*b)
 
 if __name__ == '__main__':
   sum = add(10,20)

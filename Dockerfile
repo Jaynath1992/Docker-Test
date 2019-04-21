@@ -4,6 +4,8 @@ MAINTAINER Weldon Ng <weldon.ng@nuance.com>
 ENV HTTP_PROXY 'http://s2tk-squid-vs.vrli.net:3128'
 ENV HTTPS_PROXY 'https://s2tk-squid-vs.vrli.net:3128'
 
+USER root
+
 # Make sure the package repository is up to date.
 RUN apt-get update
 # Install a basic SSH server
